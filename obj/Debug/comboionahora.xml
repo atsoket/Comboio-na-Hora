@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+comboionahora
+</name>
+</assembly>
+<members>
+<member name="M:comboionahora.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="P:comboionahora.App.RootFrame">
+	<summary>
+ Provides easy access to the root frame of the Phone Application.
+ </summary>
+	<returns>The root frame of the Phone Application.</returns>
+</member><member name="M:comboionahora.App.#ctor">
+	<summary>
+ Constructor for the Application object.
+ </summary>
+</member><member name="M:comboionahora.Page2.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:comboionahora.Page1.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:comboionahora.MainPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

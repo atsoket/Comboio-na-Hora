@@ -1,0 +1,62 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="comboionahora.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" OpacityMask="Lime" Opacity="1">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+   
+    <Grid x:Name="LayoutRoot" Background="Transparent" Width="480">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="73"/>
+            <RowDefinition Height="695*"/>
+        </Grid.RowDefinitions>
+        <Canvas Height="768" HorizontalAlignment="Left" Name="Canvas1" VerticalAlignment="Top" Width="480" Grid.RowSpan="2" Margin="0,2,0,0">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/comboionahora;component/background2.png" />
+            </Canvas.Background>
+            <Canvas Canvas.Left="0" Canvas.Top="153" Height="570" Name="Canvas2" Width="466" Background="#82000000" />
+            <TextBlock Canvas.Left="26" Canvas.Top="216" Height="57" Name="TextBlock1" Text="Mostra com recurso ao browser os atrasos dos comboios." Width="313" Foreground="#FFC7C7C7" TextTrimming="None" TextWrapping="Wrap" FontWeight="ExtraLight" />
+            <Image Canvas.Left="380" Canvas.Top="173" Height="153" Name="Image1" Stretch="Fill" Width="69" Source="/comboionahora;component/seta.png" Opacity="1" OpacityMask="Red" Visibility="Visible" />
+            <Button Content="Tempo Real" Height="216" Name="Button1" Width="480" BorderBrush="White" Canvas.Left="0" Canvas.Top="141" FlowDirection="LeftToRight" Foreground="White" HorizontalAlignment="Stretch" IsHitTestVisible="True" HorizontalContentAlignment="Left" VerticalContentAlignment="Stretch" Visibility="Visible" FontSize="35.333">
+                <Button.Background>
+                    <SolidColorBrush />
+                </Button.Background>
+            </Button>
+            <TextBlock Canvas.Left="27" Canvas.Top="402" Foreground="#FFC7C7C7" Height="113" Name="TextBlock2" Text="Diga aonde quer estar e a que horas, que nós informamos que comboio deve apanhar." TextTrimming="None" TextWrapping="Wrap" Width="337" />
+            <Image Canvas.Left="380" Canvas.Top="362" Height="153" Name="Image2" Opacity="1" OpacityMask="Red" Source="/comboionahora;component/seta.png" Stretch="Fill" Visibility="Visible" Width="69" />
+            <Button Content="Encontrar Comboio" Height="216" Name="Button2" Width="480" Canvas.Left="0" Canvas.Top="330" VerticalContentAlignment="Top" UseLayoutRounding="False" HorizontalContentAlignment="Left" FontSize="35.333">
+                <Button.Background>
+                    <SolidColorBrush />
+                </Button.Background>
+            </Button>
+            <Button Canvas.Left="0" Canvas.Top="519" Content="Informações" Height="216" Name="Button3" Width="480" FontSize="35.333" />
+        </Canvas>
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Margin="12,17,0,56"></StackPanel>
+        <TextBlock x:Name="PageTitle" Text="Comboio na Hora" Margin="6,0,-11,678" Style="{StaticResource PhoneTextTitle1Style}" FontSize="60" Height="90" Width="479" Foreground="White" Grid.RowSpan="2" OpacityMask="White" FontStretch="Normal" FontWeight="ExtraLight" />
+        <!--ContentPanel - place additional content here-->
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

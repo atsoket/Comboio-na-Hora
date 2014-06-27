@@ -1,0 +1,25 @@
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\obj\Debug\App.g.i.vb
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\obj\Debug\MainPage.g.i.vb
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\obj\Debug\Page1.g.i.vb
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\obj\Debug\comboionahora.g.resources
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\Bin\Debug\ApplicationIcon.png
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\Bin\Debug\Background.png
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\Bin\Debug\comboionahora.dll
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\Bin\Debug\comboionahora.pdb
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\Bin\Debug\comboionahora.xml
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\Bin\Debug\AppManifest.xaml
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\Bin\Debug\comboionahora.xap
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\obj\Debug\comboionahora.dll
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\obj\Debug\comboionahora.xml
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\obj\Debug\comboionahora.pdb
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\obj\Debug\XapCacheFile.xml
+C:\Users\Agent\documents\visual studio 2010\Projects\comboionahora\comboionahora\obj\Debug\Page2.g.i.vb
+F:\Documents\Jogos\comboionahora\comboionahora\obj\Debug\App.g.i.vb
+F:\Documents\Jogos\comboionahora\comboionahora\obj\Debug\MainPage.g.i.vb
+F:\Documents\Jogos\comboionahora\comboionahora\obj\Debug\Page1.g.i.vb
+F:\Documents\Jogos\comboionahora\comboionahora\obj\Debug\Page2.g.i.vb
+F:\Documents\Jogos\comboionahora\comboionahora\obj\Debug\comboionahora.g.resources
+F:\Documents\Jogos\comboionahora\comboionahora\obj\Debug\comboionahora.dll
+F:\Documents\Jogos\comboionahora\comboionahora\obj\Debug\comboionahora.xml
+F:\Documents\Jogos\comboionahora\comboionahora\obj\Debug\comboionahora.pdb
